@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #352617;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  padding: 80px;
+}
+
+.leftColumn,
+.rightColumn {
+  width: 48%;
+}
+
+.infoItem {
+  margin-bottom: 20px;
+}
+
+.infoTitle {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline;
+}
+
+.infoText {
+  font-size: 14px;
+  line-height: 1.6;
+  display: inline;
+  margin-left: 5px;
+}
+
+.infoItem:nth-child(2) .infoText,
+.infoItem:nth-child(3) .infoText {
+  display: block;
+  margin-left: 0;
+}

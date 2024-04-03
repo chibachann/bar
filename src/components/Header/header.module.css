@@ -1,0 +1,59 @@
+/* src/components/Header/header.module.css */
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-color: #131212;
+  padding: 20px;
+  color: #fff;
+
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.pc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tel {
+  margin: 0;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav li:first-child {
+  margin-left: 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #c7a17a;
+}
+
+.nav a span {
+  display: block;
+  font-size: 18px;
+}
+

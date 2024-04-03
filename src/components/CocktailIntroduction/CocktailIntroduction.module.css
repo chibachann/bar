@@ -1,0 +1,34 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c1c;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    padding: 40px;
+  }
+  
+  .imageContainer {
+    width: 45%;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .textContainer {
+    width: 50%;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
