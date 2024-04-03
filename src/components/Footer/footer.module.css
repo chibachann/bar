@@ -19,3 +19,9 @@
   font-size: 14px;
   font-family: 'Bodoni Moda', serif;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: 100px;
+  }
+}
