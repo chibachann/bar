@@ -8,8 +8,8 @@ const ShopInfo = () => {
         <div className={styles.infoItem}>
           <h3 className={styles.infoTitle}>住所 /</h3>
           <p className={styles.infoText}>
-            〒192-0046 <br />
-            東京都八王子市明神町4-6-12 アーバンホームズ八王子802
+            〒222-2222 <br />
+            東京都八王子市
           </p>
         </div>
         <div className={styles.infoItem}>
